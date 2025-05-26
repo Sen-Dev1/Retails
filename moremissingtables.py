@@ -28,14 +28,7 @@ def load_csv(filename):
     else:
         return None        
 
-# Add this line here:
-print("Missing tables to generate:", missing_tables)
 
-for t in missing_tables:
-    if t in table_generators:
-        safe_to_csv(table_generators[t](), t)
-    else:
-        print(f"No generator defined for {t}. Please add one to table_generators.")
 
 print("Done. All missing tables (with defined generators) have been generated with referential integrity.")
 customers = load_csv("customer.csv")
@@ -493,3 +486,15 @@ for t in missing_tables:
         print(f"No generator defined for {t}. Please add one to table_generators.")
 
 print("Done. All missing tables (with defined generators) have been generated with referential integrity.")
+
+
+
+
+# Add this line here:
+print("Missing tables to generate:", missing_tables)
+
+for t in missing_tables:
+    if t in table_generators:
+        safe_to_csv(table_generators[t](), t)
+    else:
+        print(f"No generator defined for {t}. Please add one to table_generators.")
