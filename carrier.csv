@@ -1,0 +1,5 @@
+CarrierID,CarrierName,ContactName,Phone,Email,Website,Address,City,State,ZipCode,Country
+CARR001,FedEx,Frederick Smith,+1 800-463-3339,support@fedex.com,https://www.fedex.com,942 South Shady Grove Road,Memphis,TN,38120,USA
+CARR002,USPS,Megan J. Brennan,+1 800-275-8777,info@usps.com,https://www.usps.com,475 L'Enfant Plaza SW,Washington,DC,20260,USA
+CARR003,DHL,Frank Appel,+1 800-225-5345,support@dhl.com,https://www.dhl.com,1200 South Pine Island Road,Plantation,FL,33324,USA
+CARR004,UPS,Carol Tom,+1 800-742-5877,support@ups.com,https://www.ups.com,55 Glenlake Parkway NE,Atlanta,GA,30328,USA
