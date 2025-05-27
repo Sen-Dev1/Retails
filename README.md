@@ -59,7 +59,7 @@ The goal of this project is to design and implement a **massive, scalable data w
 ## Contact
 
 For more information about the Giggabytes Oy Data Warehouse Project, please contact:  
-**info@giggabytes.fi**
+**olawale.sobogungod@giggabytes.eu**
 
 ---
 
