@@ -15,12 +15,41 @@ required_tables = [
 existing_tables = set(f for f in os.listdir(DATA_DIR) if f.endswith('.csv'))
 missing_tables = [t for t in required_tables if t not in existing_tables]
 
-def load_csv(name):
-    path = os.path.join(DATA_DIR, name)
+
+existing_tables = set(f for f in os.listdir(DATA_DIR) if f.endswith('.csv'))
+missing_tables = [t for t in required_tables if t not in existing_tables]
+print("Missing tables to generate:", missing_tables)
+
+for t in missing_tables:
+    if t in table_generators:
+        safe_to_csv(table_generators[t](), t)
+    else:
+        print(f"No generator defined for {t}. Please add one to table_generators.")
+
+def safe_to_csv(df, fname):
+    path = os.path.join(DATA_DIR, fname)
+    if not os.path.exists(path):
+        df.to_csv(path, index=False)
+        print(f"Generated {fname}")
+
+def load_csv(filename):
+    path = os.path.join(DATA_DIR, filename)
     if os.path.exists(path):
         return pd.read_csv(path)
-    return None
+    else:
+        return None        
+    
 
+def safe_to_csv(df, fname):
+    path = os.path.join(DATA_DIR, fname)
+    df.to_csv(path, index=False)
+    print(f"Generated {fname}")
+
+
+
+
+
+print("Done. All missing tables (with defined generators) have been generated with referential integrity.")
 customers = load_csv("customer.csv")
 products = load_csv("product.csv")
 stores = load_csv("store.csv")
@@ -476,3 +505,15 @@ for t in missing_tables:
         print(f"No generator defined for {t}. Please add one to table_generators.")
 
 print("Done. All missing tables (with defined generators) have been generated with referential integrity.")
+
+
+
+
+# Add this line here:
+print("Missing tables to generate:", missing_tables)
+
+for t in missing_tables:
+    if t in table_generators:
+        safe_to_csv(table_generators[t](), t)
+    else:
+        print(f"No generator defined for {t}. Please add one to table_generators.")
