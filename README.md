@@ -1,197 +1,67 @@
-# Retails
+# Giggabytes Oy Data Warehouse Project
 
+## Company Overview
 
+**Giggabytes Oy** is a forward-thinking, data-driven company aiming to revolutionize its business intelligence and analytics capabilities. With operations spanning multiple regions and business units, Giggabytes Oy generates and collects vast amounts of data from various sources, including SFTP servers, cloud data lakes, and SAP systems.
 
+## Project Objective
 
+The goal of this project is to design and implement a **massive, scalable data warehouse** that consolidates all enterprise data into a single source of truth. This will empower business users and analysts to generate actionable insights, drive strategic decisions, and enable advanced analytics and reporting.
 
-# Relationship:
-online_order_aligned.csv:OnlineOrderID <==> store_aligned.csv:StoreID
-online_order_aligned.csv:OnlineOrderID <==> advertising_channel.csv:ChannelID
-online_order_aligned.csv:OnlineOrderID <==> customer.csv:CustomerID
-online_order_aligned.csv:OnlineOrderID <==> customer_aligned.csv:CustomerID
-online_order_aligned.csv:OnlineOrderID <==> product.csv:ProductID
-online_order_aligned.csv:OnlineOrderID <==> inventory.csv:InventoryID
-order_feedback.csv:Rating <==> order_lines.csv:Quantity
-order_feedback.csv:Rating <==> order_review.csv:Rating
-order_feedback.csv:Rating <==> customer_review.csv:Rating
-order_feedback.csv:Rating <==> review.csv:Rating
-order_feedback.csv:Rating <==> product_review.csv:Rating
-order_feedback.csv:Rating <==> customer_feedback_by_product.csv:Rating
-order_feedback.csv:Rating <==> shopping_cart.csv:Quantity
-order_feedback.csv:Rating <==> customer_service_interaction.csv:SatisfactionRating
-store_aligned.csv:StoreID <==> advertising_channel.csv:ChannelID
-store_aligned.csv:StoreID <==> customer.csv:CustomerID
-store_aligned.csv:City <==> customer.csv:City
-store_aligned.csv:State <==> customer.csv:State
-store_aligned.csv:Country <==> customer.csv:Country
-store_aligned.csv:StoreID <==> customer_aligned.csv:CustomerID
-store_aligned.csv:City <==> customer_aligned.csv:City
-store_aligned.csv:State <==> customer_aligned.csv:State
-store_aligned.csv:Country <==> customer_aligned.csv:Country
-store_aligned.csv:ZipCode <==> customer_aligned.csv:ZipCode
-store_aligned.csv:StoreID <==> product.csv:ProductID
-store_aligned.csv:StoreID <==> inventory.csv:InventoryID
-carrier.csv:CarrierName <==> online_order_tracking.csv:Carrier
-carrier.csv:CarrierName <==> shipment_tracking.csv:Carrier
-store.csv:StoreID <==> store_hours.csv:StoreID
-store.csv:StoreID <==> store_staff.csv:StoreID
-store.csv:StoreID <==> store_inventory.csv:StoreID
-store.csv:StoreID <==> restock_order.csv:StoreID
-store.csv:StoreID <==> financial_transactions.csv:StoreID
-store.csv:StoreID <==> inventory_costing.csv:StoreID
-store.csv:StoreID <==> gift_card_transaction.csv:StoreID
-store.csv:StoreID <==> inventory_movement.csv:StoreID
-advertising_channel.csv:ChannelID <==> customer.csv:CustomerID
-advertising_channel.csv:ChannelID <==> customer_aligned.csv:CustomerID
-advertising_channel.csv:ChannelID <==> product.csv:ProductID
-advertising_channel.csv:ChannelID <==> inventory.csv:InventoryID
-advertising_channel.csv:EndDate <==> inventory.csv:LastRestockDate
-order_return.csv:RefundIssued <==> customer_referral.csv:RewardIssued
-order_return.csv:RefundIssued <==> order_lines_final.csv:Shipped
-order_return.csv:RefundIssued <==> cart_abandonment.csv:RecoveryAttempted
-order_return.csv:RefundIssued <==> abandoned_cart.csv:RecoveryEmailSent
-order_return.csv:ReturnDate <==> promotion_redemption.csv:RedemptionDate
-order_return.csv:RefundIssued <==> customer_service_interaction.csv:IssueResolved
-customer_support_ticket.csv:ResolutionDate <==> shipment_tracking.csv:EstimatedDelivery
-delivery_tracking.csv:ShipmentID <==> order_shipment.csv:ShipmentID
-product_supplier.csv:SupplierID <==> restock_order.csv:SupplierID
-product_supplier.csv:SupplierID <==> supplier.csv:SupplierID
-customer_referral.csv:RewardIssued <==> order_lines_final.csv:Shipped
-customer_referral.csv:RewardIssued <==> cart_abandonment.csv:RecoveryAttempted
-customer_referral.csv:RewardIssued <==> abandoned_cart.csv:RecoveryEmailSent
-customer_referral.csv:RewardIssued <==> customer_service_interaction.csv:IssueResolved
-online_order_tracking.csv:UpdateDate <==> product_view.csv:ViewDate
-online_order_tracking.csv:Carrier <==> shipment_tracking.csv:Carrier
-order_lines_final.csv:OrderID <==> order_lines.csv:OrderID
-order_lines_final.csv:Shipped <==> cart_abandonment.csv:RecoveryAttempted
-order_lines_final.csv:Shipped <==> abandoned_cart.csv:RecoveryEmailSent
-order_lines_final.csv:OrderID <==> customer.csv:OrderID
-order_lines_final.csv:Shipped <==> customer_service_interaction.csv:IssueResolved
-product_category_assignment.csv:ProductID <==> store_inventory_audit.csv:ProductID
-product_category_assignment.csv:CategoryID <==> product_category.csv:CategoryID
-product_category_assignment.csv:ProductID <==> promotion_product.csv:ProductID
-coupon.csv:DiscountPercentage <==> inventory.csv:ReorderLevel
-order_lines.csv:Quantity <==> order_review.csv:Rating
-order_lines.csv:Quantity <==> customer_review.csv:Rating
-order_lines.csv:OrderID <==> customer.csv:OrderID
-order_lines.csv:Quantity <==> review.csv:Rating
-order_lines.csv:Quantity <==> product_review.csv:Rating
-order_lines.csv:Quantity <==> customer_feedback_by_product.csv:Rating
-order_lines.csv:Quantity <==> shopping_cart.csv:Quantity
-order_lines.csv:Quantity <==> customer_service_interaction.csv:SatisfactionRating
-order_review.csv:Rating <==> customer_review.csv:Rating
-order_review.csv:Rating <==> review.csv:Rating
-order_review.csv:Rating <==> product_review.csv:Rating
-order_review.csv:Rating <==> customer_feedback_by_product.csv:Rating
-order_review.csv:Rating <==> shopping_cart.csv:Quantity
-order_review.csv:Rating <==> customer_service_interaction.csv:SatisfactionRating
-cart_abandonment.csv:RecoveryAttempted <==> abandoned_cart.csv:RecoveryEmailSent
-cart_abandonment.csv:RecoveryAttempted <==> customer_service_interaction.csv:IssueResolved
-loyalty_program.csv:ProgramID <==> customer_loyalty.csv:ProgramID
-abandoned_cart.csv:RecoveryEmailSent <==> customer_service_interaction.csv:IssueResolved
-coupon_redemption.csv:CustomerID <==> customer_review.csv:CustomerID
-coupon_redemption.csv:CustomerID <==> financial_transactions.csv:CustomerID
-coupon_redemption.csv:CustomerID <==> product_review.csv:CustomerID
-coupon_redemption.csv:CustomerID <==> gift_card.csv:CustomerID
-customer_review.csv:Rating <==> review.csv:Rating
-customer_review.csv:CustomerID <==> financial_transactions.csv:CustomerID
-customer_review.csv:CustomerID <==> product_review.csv:CustomerID
-customer_review.csv:Rating <==> product_review.csv:Rating
-customer_review.csv:Rating <==> customer_feedback_by_product.csv:Rating
-customer_review.csv:CustomerID <==> gift_card.csv:CustomerID
-customer_review.csv:Rating <==> shopping_cart.csv:Quantity
-customer_review.csv:Rating <==> customer_service_interaction.csv:SatisfactionRating
-store_hours.csv:StoreID <==> store_staff.csv:StoreID
-store_hours.csv:StoreID <==> store_inventory.csv:StoreID
-store_hours.csv:StoreID <==> restock_order.csv:StoreID
-store_hours.csv:StoreID <==> financial_transactions.csv:StoreID
-store_hours.csv:StoreID <==> inventory_costing.csv:StoreID
-store_hours.csv:StoreID <==> gift_card_transaction.csv:StoreID
-store_hours.csv:StoreID <==> inventory_movement.csv:StoreID
-customer.csv:CustomerID <==> customer_aligned.csv:CustomerID
-customer.csv:FirstName <==> customer_aligned.csv:FirstName
-customer.csv:LastName <==> customer_aligned.csv:LastName
-customer.csv:Email <==> customer_aligned.csv:Email
-customer.csv:PhoneNumber <==> customer_aligned.csv:PhoneNumber
-customer.csv:Gender <==> customer_aligned.csv:Gender
-customer.csv:BirthDate <==> customer_aligned.csv:BirthDate
-customer.csv:City <==> customer_aligned.csv:City
-customer.csv:State <==> customer_aligned.csv:State
-customer.csv:Country <==> customer_aligned.csv:Country
-customer.csv:SignupDate <==> customer_aligned.csv:SignupDate
-customer.csv:RowHash <==> customer_aligned.csv:RowHash
-customer.csv:CustomerID <==> product.csv:ProductID
-customer.csv:CustomerID <==> inventory.csv:InventoryID
-store_staff.csv:StoreID <==> store_inventory.csv:StoreID
-store_staff.csv:StoreID <==> restock_order.csv:StoreID
-store_staff.csv:StoreID <==> financial_transactions.csv:StoreID
-store_staff.csv:StoreID <==> inventory_costing.csv:StoreID
-store_staff.csv:StoreID <==> gift_card_transaction.csv:StoreID
-store_staff.csv:StoreID <==> inventory_movement.csv:StoreID
-customer_aligned.csv:CustomerID <==> product.csv:ProductID
-customer_aligned.csv:CustomerID <==> inventory.csv:InventoryID
-store_inventory_audit.csv:ProductID <==> promotion_product.csv:ProductID
-employee.csv:EmployeeID <==> employee_attendance.csv:EmployeeID
-employee.csv:EmployeeID <==> shift_schedule.csv:EmployeeID
-store_inventory.csv:StoreID <==> restock_order.csv:StoreID
-store_inventory.csv:StoreID <==> financial_transactions.csv:StoreID
-store_inventory.csv:StoreID <==> inventory_costing.csv:StoreID
-store_inventory.csv:StoreID <==> gift_card_transaction.csv:StoreID
-store_inventory.csv:StoreID <==> inventory_movement.csv:StoreID
-review.csv:Rating <==> product_review.csv:Rating
-review.csv:Rating <==> customer_feedback_by_product.csv:Rating
-review.csv:Rating <==> shopping_cart.csv:Quantity
-review.csv:Rating <==> customer_service_interaction.csv:SatisfactionRating
-restock_order.csv:StoreID <==> financial_transactions.csv:StoreID
-restock_order.csv:StoreID <==> inventory_costing.csv:StoreID
-restock_order.csv:StoreID <==> gift_card_transaction.csv:StoreID
-restock_order.csv:StoreID <==> inventory_movement.csv:StoreID
-restock_order.csv:SupplierID <==> supplier.csv:SupplierID
-financial_transactions.csv:CustomerID <==> product_review.csv:CustomerID
-financial_transactions.csv:CustomerID <==> gift_card.csv:CustomerID
-financial_transactions.csv:StoreID <==> inventory_costing.csv:StoreID
-financial_transactions.csv:StoreID <==> gift_card_transaction.csv:StoreID
-financial_transactions.csv:StoreID <==> inventory_movement.csv:StoreID
-product_review.csv:Rating <==> customer_feedback_by_product.csv:Rating
-product_review.csv:CustomerID <==> gift_card.csv:CustomerID
-product_review.csv:Rating <==> shopping_cart.csv:Quantity
-product_review.csv:Rating <==> customer_service_interaction.csv:SatisfactionRating
-customer_feedback_by_product.csv:DateID <==> customer_satisfaction.csv:DateID
-customer_feedback_by_product.csv:DateCreated <==> customer_satisfaction.csv:DateCreated
-customer_feedback_by_product.csv:DateCreated <==> customer_satisfaction.csv:DateModified
-customer_feedback_by_product.csv:DateModified <==> customer_satisfaction.csv:DateCreated
-customer_feedback_by_product.csv:DateModified <==> customer_satisfaction.csv:DateModified
-customer_feedback_by_product.csv:DateCreated <==> inventory_costing.csv:EffectiveDate
-customer_feedback_by_product.csv:DateModified <==> inventory_costing.csv:EffectiveDate
-customer_feedback_by_product.csv:Rating <==> shopping_cart.csv:Quantity
-customer_feedback_by_product.csv:DateID <==> customer_service_interaction.csv:DateID
-customer_feedback_by_product.csv:Rating <==> customer_service_interaction.csv:SatisfactionRating
-customer_feedback_by_product.csv:DateCreated <==> customer_service_interaction.csv:DateCreated
-customer_feedback_by_product.csv:DateCreated <==> customer_service_interaction.csv:DateModified
-customer_feedback_by_product.csv:DateModified <==> customer_service_interaction.csv:DateCreated
-customer_feedback_by_product.csv:DateModified <==> customer_service_interaction.csv:DateModified
-customer_satisfaction.csv:DateCreated <==> inventory_costing.csv:EffectiveDate
-customer_satisfaction.csv:DateModified <==> inventory_costing.csv:EffectiveDate
-customer_satisfaction.csv:DateID <==> customer_service_interaction.csv:DateID
-customer_satisfaction.csv:DateCreated <==> customer_service_interaction.csv:DateCreated
-customer_satisfaction.csv:DateCreated <==> customer_service_interaction.csv:DateModified
-customer_satisfaction.csv:DateModified <==> customer_service_interaction.csv:DateCreated
-customer_satisfaction.csv:DateModified <==> customer_service_interaction.csv:DateModified
-inventory_costing.csv:StoreID <==> gift_card_transaction.csv:StoreID
-inventory_costing.csv:StoreID <==> inventory_movement.csv:StoreID
-inventory_costing.csv:EffectiveDate <==> customer_service_interaction.csv:DateCreated
-inventory_costing.csv:EffectiveDate <==> customer_service_interaction.csv:DateModified
-employee_attendance.csv:EmployeeID <==> shift_schedule.csv:EmployeeID
-employee_attendance.csv:Date <==> shift_schedule.csv:ShiftDate
-subscription_plan.csv:PlanID <==> customer_subscription.csv:PlanID
-return_reason.csv:ReasonID <==> product_return.csv:ReasonID
-promotion.csv:PromotionID <==> promotion_product.csv:PromotionID
-gift_card_transaction.csv:StoreID <==> inventory_movement.csv:StoreID
-product.csv:ProductID <==> inventory.csv:InventoryID
-shift_schedule.csv:Shift <==> delivery_schedule.csv:DeliveryWindow
-shopping_cart.csv:Quantity <==> customer_service_interaction.csv:SatisfactionRating
+## Data Sources
 
+- **SFTP Servers:**  
+  Regularly receive CSV, XML, and JSON files from partners, vendors, and internal systems.
+- **Cloud Data Lake:**  
+  Stores semi-structured and unstructured data, including logs, IoT feeds, and large datasets.
+- **SAP:**  
+  Core business processes and master data are managed in SAP, including finance, sales, and supply chain.
 
+## Data Integration & ETL
+
+- **On-Premise SSIS (SQL Server Integration Services):**  
+  Handles extraction, transformation, and loading (ETL) of data from SFTP and SAP into the on-premise SQL Server environment.
+- **Azure Data Factory (ADF):**  
+  Orchestrates and automates data movement from the cloud data lake and other cloud sources into the data warehouse, and coordinates hybrid data flows with SSIS.
+- **Hybrid Architecture:**  
+  SSIS and ADF pipelines are integrated to ensure seamless data ingestion from both on-premise and cloud environments.
+
+## Data Warehouse Platform
+
+- **Microsoft SQL Server (MSSQL):**  
+  The central data warehouse is built on MSSQL, providing robust storage, high performance, and advanced analytics capabilities.
+
+## Analytics & Reporting
+
+- **Microsoft Power BI (PBI):**  
+  Business users access curated datasets and build interactive dashboards and reports.
+- **Microsoft Gateway:**  
+  Securely connects on-premise MSSQL data warehouse to Power BI Service, enabling real-time and scheduled data refreshes.
+- **Microsoft Fabric:**  
+  The data warehouse is integrated with Microsoft Fabric for advanced analytics, AI, and large-scale data processing.
+
+## Project Management
+
+- **Project Lead:** Giggabytes Oy  
+  The project is managed end-to-end by Giggabytes Oy’s expert data engineering and analytics team, ensuring best practices in data governance, security, and scalability.
+
+## Key Benefits
+
+- **Unified Data Platform:**  
+  All enterprise data in one place, accessible for analytics and reporting.
+- **Hybrid Integration:**  
+  Seamless data movement between on-premise and cloud sources.
+- **Scalable & Secure:**  
+  Built on industry-leading Microsoft technologies, ensuring scalability, reliability, and security.
+- **Advanced Analytics:**  
+  Ready for AI, machine learning, and advanced reporting through Power BI and Microsoft Fabric.
+
+## Contact
+
+For more information about the Giggabytes Oy Data Warehouse Project, please contact:  
+**info@giggabytes.fi**
+
+---
 
 
 # 50+ complex explorations you can perform with this dataset:
