@@ -1,0 +1,501 @@
+DeliveryAddressID,CustomerID,Address,City,State,Country
+DA000001,CUST02553,"87847 Payne Ranch, Deborahside, SC 14996",Lopezborough,MA,Colombia
+DA000002,CUST02250,"PSC 1109, Box 1401, APO AA 99049",West Ashleyton,VA,Bolivia
+DA000003,CUST02968,"4963 Emily Crossroad, Hansonstad, ND 74101",Romanview,NV,Guyana
+DA000004,CUST01528,"Unit 7693 Box 8358, DPO AE 19649",Susanville,MP,Mauritania
+DA000005,CUST01668,"6038 James Gardens, Hawkinshaven, TX 07385",Jenniferfurt,MA,Egypt
+DA000006,CUST00037,"191 Steven Walk, West Samuel, WY 02338",Hernandezton,IL,French Southern Territories
+DA000007,CUST02692,"1376 Johnson Extensions Suite 244, Port Marcusberg, OR 36644",Saraport,MS,Nepal
+DA000008,CUST01997,"72849 Casey Cliff Suite 618, Brandonton, MI 94957",Victoriahaven,PA,United States Virgin Islands
+DA000009,CUST01426,"9136 Lawson Fort Suite 486, Markfort, NJ 78379",Ronaldstad,WY,Saint Martin
+DA000010,CUST02813,"25812 Tapia Spur Suite 036, Lake Melissa, HI 79481",East James,CO,Ethiopia
+DA000011,CUST02754,"7317 Donna Extension Apt. 499, Campbellfort, IL 88314",Moodybury,IL,American Samoa
+DA000012,CUST02593,"5241 Kelsey Village Apt. 421, Andradeton, MP 25476",Williamsmouth,GU,Russian Federation
+DA000013,CUST01491,"809 Pacheco Plains Apt. 646, East Tannerfurt, NM 16248",East Kyle,IA,Taiwan
+DA000014,CUST01225,"49257 Nicole Roads Suite 073, New Amber, VI 60627",North Phillipborough,HI,Cape Verde
+DA000015,CUST02588,"1129 Miranda Turnpike, East Christopherborough, ME 50480",Lake Stephanie,AR,Sierra Leone
+DA000016,CUST02023,"85601 Carrie Way, Jaredmouth, HI 93758",West Elizabeth,LA,Mayotte
+DA000017,CUST02442,"578 Cassandra Manor, New Michael, OK 91875",North Douglasville,AS,Netherlands
+DA000018,CUST00833,"877 Sandra Forges Suite 466, West Ashleyport, CT 74092",Espinozaberg,SC,Heard Island and McDonald Islands
+DA000019,CUST00597,"3878 Randy Highway, New Eric, LA 06803",New Jefferyborough,KY,Pakistan
+DA000020,CUST02441,"414 Bryan Views, East Justinstad, GA 96295",Gomezland,VI,Hungary
+DA000021,CUST00700,"26381 William Green, South Brian, DE 17381",South Veronicaside,NE,Belize
+DA000022,CUST01647,"21016 Beasley Overpass, Simmonsmouth, MI 06376",Tinastad,KS,Greece
+DA000023,CUST02019,"73290 Adrian Rest Apt. 079, West Michaela, WA 15867",South Jayview,AZ,Romania
+DA000024,CUST00441,"70502 Nelson Street, Port Jessicaview, CA 36295",Rodriguezport,MD,British Virgin Islands
+DA000025,CUST01861,"67605 Ashley Bypass, South Jeffreyborough, PA 22271",West Sara,AL,Netherlands Antilles
+DA000026,CUST01641,"170 Alicia Turnpike, West Felicia, GA 66893",Lopezbury,MO,Fiji
+DA000027,CUST01530,"6907 Mckinney Islands, Hollyton, ND 39668",Lake James,AR,Ukraine
+DA000028,CUST02966,"3882 Garcia Underpass Suite 529, East Amyview, VT 49808",Lake Shannonville,TN,Portugal
+DA000029,CUST02368,"08417 White Light, West Ashley, NM 99551",Oscarland,NC,Mayotte
+DA000030,CUST02601,"0426 Samantha Oval Suite 580, Kingmouth, IL 98845",South Christophershire,NE,Saint Vincent and the Grenadines
+DA000031,CUST01095,"832 Lauren Prairie, New Katherineville, GU 09739",Johnsontown,MN,French Southern Territories
+DA000032,CUST00568,"91331 Brittany Parks Suite 006, Port Jacquelinemouth, ND 62176",Thomasstad,UT,Spain
+DA000033,CUST02967,"4661 Neal Corner, Fowlerbury, MD 98846",North Ryan,AL,Gabon
+DA000034,CUST00236,"68231 Corey Falls, East Rickystad, AK 32518",New Alejandra,FM,Netherlands
+DA000035,CUST01305,"54054 Stacy Mountain Apt. 067, North Lisa, NJ 21155",Danielleberg,ME,Northern Mariana Islands
+DA000036,CUST01186,"48867 James Prairie, North Jimmouth, KY 97525",Montgomerychester,SC,Marshall Islands
+DA000037,CUST01033,"69954 Reed Stream, West Erin, GU 15133",Townsendshire,GA,Nauru
+DA000038,CUST02108,"7331 Steve Center, Kellyhaven, IA 23337",Julieside,PA,Timor-Leste
+DA000039,CUST02941,"22585 Smith Plain Suite 466, New Kathrynland, TX 60823",Matthewbury,MH,Serbia
+DA000040,CUST01841,"95199 Chelsea Drive, Jenniferberg, MT 02222",East Jill,MN,Solomon Islands
+DA000041,CUST00225,"852 Amy Fords Suite 178, New Rebecca, OH 25272",South Emilyview,NJ,Saint Kitts and Nevis
+DA000042,CUST01843,"44917 Cabrera Drive Apt. 575, East Aprilmouth, OK 05608",Beckerview,KY,Mauritania
+DA000043,CUST02748,"767 Hampton Greens Suite 575, Danielville, NY 59160",Stephanieside,GA,Croatia
+DA000044,CUST00582,"76337 Daniel Vista, Lake Brianmouth, NH 31241",Torresstad,OK,Mali
+DA000045,CUST00169,"5855 Paul Forest Apt. 328, Ramirezstad, NV 75561",South Cristian,DE,Northern Mariana Islands
+DA000046,CUST01466,"9632 Stewart Rue Suite 393, Kevinfurt, HI 04437",Jenningshaven,WI,Turkey
+DA000047,CUST00014,"5223 Cameron Route, East April, ND 24723",Lake Danielleview,VT,Nicaragua
+DA000048,CUST02212,"2850 Patterson Viaduct Apt. 183, Nunezfort, TX 26447",Edwinshire,OK,Iran
+DA000049,CUST01444,"49067 Robertson Knolls, Port Julie, WY 86323",Port Tasha,RI,Barbados
+DA000050,CUST02805,"399 Mccormick Lodge Suite 455, Port Tonyaburgh, NV 50069",Port Erikaberg,MH,Antarctica (the territory South of 60 deg S)
+DA000051,CUST01871,"73131 Andrea Underpass, Williammouth, MT 99793",Jacksonbury,MN,Korea
+DA000052,CUST01544,"73553 Karen Mountains Apt. 388, Watkinshaven, MS 26766",East Ronaldburgh,AL,Pitcairn Islands
+DA000053,CUST01690,"99085 Cynthia Ridges Apt. 546, North Louisville, MA 67223",East Taylor,AK,Serbia
+DA000054,CUST01572,"36875 Mcdaniel Springs, New Joelburgh, NV 45873",Geraldburgh,TX,Slovenia
+DA000055,CUST01052,"3968 Shaw Forge, East Alexisport, NV 79645",Garciaberg,OR,Antarctica (the territory South of 60 deg S)
+DA000056,CUST01732,"92352 Rachel Station, Lake Melissa, PA 02553",Maryshire,FM,Syrian Arab Republic
+DA000057,CUST00446,"7391 Robert Pine Suite 514, Cesarside, DC 66456",Port Lisaburgh,MP,Moldova
+DA000058,CUST00716,"PSC 2239, Box 0861, APO AA 31309",Ashleyville,SC,United States Virgin Islands
+DA000059,CUST00819,"111 Caldwell Mills, Orozcoborough, WA 78109",New Amberville,MO,El Salvador
+DA000060,CUST02152,"086 Johnson Isle, South Frederick, UT 86174",Mariashire,MI,Wallis and Futuna
+DA000061,CUST02790,"1650 Roth Bypass Apt. 252, Kristenmouth, FM 06367",Burtonfurt,ND,Saint Vincent and the Grenadines
+DA000062,CUST00426,"99896 Smith Avenue, Davidburgh, PA 16696",East Michelle,DE,Czech Republic
+DA000063,CUST01125,"59836 Gill Hill, West Michaelport, KY 97579",East Sarah,AS,Heard Island and McDonald Islands
+DA000064,CUST01565,"05059 Jody Flat Suite 537, North Jimmouth, AL 29694",Lake Maryport,DC,Niue
+DA000065,CUST02687,"3087 Gregory Camp, Port Jessicaville, UT 83409",Ashleyton,MS,El Salvador
+DA000066,CUST00850,"680 Meghan Springs Apt. 177, Lydiachester, VT 21269",East Kendrabury,DC,Nauru
+DA000067,CUST01546,"3206 Shaffer Via, Lake Jamesstad, NE 95935",New Tylerborough,PW,Ireland
+DA000068,CUST01130,"9096 Taylor Prairie Suite 449, West Frederickfort, MP 93418",North Joshuaview,ME,Cape Verde
+DA000069,CUST01703,"061 Howard Wells Suite 610, North Stevenport, WI 50939",Kurtfurt,WY,Spain
+DA000070,CUST02002,"9856 Bryan Lights, New Marybury, PW 20131",North Dennis,VA,Hong Kong
+DA000071,CUST02817,"322 Kayla Mount Apt. 536, East Charles, OR 23893",Port Annamouth,AR,Luxembourg
+DA000072,CUST00277,"43203 Stewart Shore Apt. 727, Reynoldschester, VI 54602",Steveville,GA,Ukraine
+DA000073,CUST01807,"4530 Rosario Fields Apt. 942, Jimmymouth, MA 45076",Brownhaven,MO,Chile
+DA000074,CUST02948,"40210 Robert Drive Apt. 802, Beckchester, FM 31656",Cowanshire,MA,Belarus
+DA000075,CUST02236,"994 Martinez Corner, Sawyerview, WY 21556",Fordshire,FL,Aruba
+DA000076,CUST01940,"9376 Wilson Junction Suite 977, Michellefort, MN 20604",Jennifermouth,AL,Turks and Caicos Islands
+DA000077,CUST02153,"39288 Abbott Common, North Samuelport, WV 05215",North Ebonyville,AL,Kiribati
+DA000078,CUST00546,"6411 Ward Union, Petersenstad, OK 53558",Lake Heidi,HI,Bangladesh
+DA000079,CUST02428,"43262 Patricia Mills, New Josephfort, MD 92325",Lake Johnton,ID,Antigua and Barbuda
+DA000080,CUST00110,"2376 Smith Mountain, South Brian, IA 40109",Chaneytown,TX,Ecuador
+DA000081,CUST00545,"30580 Jimmy Spur Apt. 458, Port Gerald, GA 72492",Wadetown,DC,Slovenia
+DA000082,CUST02402,"61055 Monique Trafficway, Justinport, IL 82496",Port Samuelview,GU,Aruba
+DA000083,CUST00743,"8001 Emily Shoal Suite 834, South Joshua, CA 17030",South Sheilamouth,WA,France
+DA000084,CUST02365,"52505 Cobb Forks Apt. 585, Maryhaven, VI 93129",New Maryborough,OR,Czech Republic
+DA000085,CUST01290,"USNV Norman, FPO AA 40080",West Gloria,MO,Bhutan
+DA000086,CUST01876,"99266 Richard Corner, Vanessaland, ID 38842",Anthonyfort,MP,Bolivia
+DA000087,CUST01089,"16684 Martinez Burgs, Jamesview, KY 33854",Sandersport,MA,Malawi
+DA000088,CUST00333,"58174 Gina Burg Apt. 105, Mooremouth, NJ 70333",Lake Christian,DE,Heard Island and McDonald Islands
+DA000089,CUST01537,"50638 Gomez Land Suite 616, East Robertfort, GU 71391",Lake Staceyfort,KS,Bahamas
+DA000090,CUST01157,"8897 Justin Squares Apt. 158, Port Tara, IL 65138",Elizabethton,NE,Morocco
+DA000091,CUST00592,"97860 Kyle Road, Port Lauraton, CT 75874",Cherylville,NM,Poland
+DA000092,CUST00783,"1142 Nelson Mountains Apt. 754, East Alexisfort, MO 39057",South Rhonda,GA,Trinidad and Tobago
+DA000093,CUST00540,"519 Jessica Parkways Apt. 517, Hobbsland, IL 78050",Coryborough,MA,Vanuatu
+DA000094,CUST02783,"0098 Catherine Ville Apt. 242, West Sethview, VA 77265",Gardnerberg,AR,Gibraltar
+DA000095,CUST01559,"29120 Riggs Way, New Jamieport, VA 95950",New Amandaport,DC,Papua New Guinea
+DA000096,CUST01520,"69596 Catherine Glen, Debraborough, SD 54707",Lake Ianfort,WI,Bangladesh
+DA000097,CUST02669,"782 Medina Dale, Jessicaburgh, GU 65248",Carterview,PA,Thailand
+DA000098,CUST00619,"11099 Chelsea Run Suite 332, West Shelly, CO 13912",Jonathanmouth,PR,Lesotho
+DA000099,CUST02957,"USNS Merritt, FPO AP 12088",New Daniel,LA,Serbia
+DA000100,CUST01834,"3425 Elizabeth Trace, Kariport, LA 58933",South Jenniferhaven,PA,Japan
+DA000101,CUST00992,"33415 Christopher View Apt. 959, Jordanberg, MA 72291",East Jodi,SD,Uzbekistan
+DA000102,CUST02147,"4458 Nicole Knolls Apt. 697, Amyside, HI 80443",New Kelly,IA,Afghanistan
+DA000103,CUST02365,"452 Michael Ridges Suite 001, Robertfort, AR 63500",Kelseyfort,ID,Cambodia
+DA000104,CUST02171,"05185 Bryan Harbor, North Kristyborough, NH 52283",South Sarahland,VA,Paraguay
+DA000105,CUST02847,"5592 Goodman Ford, West Jerryland, ME 70817",South Mark,NM,Pitcairn Islands
+DA000106,CUST01617,"2656 Jeffrey Curve, East Feliciafurt, WV 04452",Port Catherine,WA,Western Sahara
+DA000107,CUST01519,"91734 Benjamin Islands, West Sarah, ND 12138",Lake Renee,MD,Palau
+DA000108,CUST02505,"Unit 5126 Box 5989, DPO AE 54242",East Michelestad,NE,Norway
+DA000109,CUST00522,"3508 Moore Locks, Thomasstad, KS 13270",East Justin,NM,Wallis and Futuna
+DA000110,CUST02568,"621 Michele Spurs Apt. 013, South Jillstad, KS 55162",Smithstad,NM,Italy
+DA000111,CUST00917,"0669 Lauren Gateway Apt. 751, Annebury, CO 07632",Lake Jasonfurt,DE,Macao
+DA000112,CUST00717,"50707 Theodore Haven Suite 729, Lake Daleshire, MT 96997",Coxstad,ND,Greece
+DA000113,CUST02363,"42174 Jasmine Pines Suite 348, New Barbara, NH 51286",North Willie,CA,Central African Republic
+DA000114,CUST02757,"884 Isaiah Trace Suite 636, North Nicolehaven, MP 60046",Barajasview,LA,Belize
+DA000115,CUST02758,"5596 Deborah Glen Apt. 467, Hughesfort, ID 64235",Pierceport,CO,Belgium
+DA000116,CUST01937,"6071 Perry Oval Suite 216, Lake Victoria, AZ 19278",Wangland,PR,Turks and Caicos Islands
+DA000117,CUST00560,"30621 Vanessa Drive, Port Donald, KY 59106",West Shari,HI,Hungary
+DA000118,CUST00969,"05785 Jennifer Square Suite 000, Hollowayside, MS 93412",Robertland,DE,Macao
+DA000119,CUST02404,"24720 Berry Station Apt. 245, West Ryan, IN 40912",Brownside,TN,Saint Barthelemy
+DA000120,CUST01078,"141 Michael Islands Apt. 123, New Marcialand, SC 47417",West Darrenchester,ND,Lithuania
+DA000121,CUST00890,"657 Matthew Coves Apt. 616, Evanshaven, MP 96816",Jayfurt,CT,Cyprus
+DA000122,CUST00793,"976 Ramirez Parkway, Amytown, DE 40880",East Rachelshire,OR,Uzbekistan
+DA000123,CUST02313,"36707 Holly Heights, Paulaland, AS 86951",Jamesland,NJ,Slovakia (Slovak Republic)
+DA000124,CUST00982,"659 Hicks Harbors, Humphreyton, ND 84439",Carrollberg,PW,Paraguay
+DA000125,CUST00802,"61583 Mitchell Forest Apt. 978, Davisborough, MS 04100",Thompsonborough,MH,Falkland Islands (Malvinas)
+DA000126,CUST00043,"80148 Sarah Club Apt. 815, Jacktown, VI 11704",Hughesside,HI,Denmark
+DA000127,CUST01610,"489 Carol Village Suite 826, East Tyler, OH 45203",Port Anthonyland,VI,Bahrain
+DA000128,CUST02910,"845 Blake Ranch, Port Christina, PW 94082",New Derrick,MD,Lao People's Democratic Republic
+DA000129,CUST01778,"410 Torres Fall, Connorberg, LA 02461",Jasonshire,VT,Canada
+DA000130,CUST00350,"2828 Roberts Lights Suite 035, New Elizabeth, NV 42069",Port Josephtown,VT,Serbia
+DA000131,CUST01568,"0043 Hall Terrace, East Gwendolyn, NJ 59889",Danielhaven,ME,Germany
+DA000132,CUST01130,"Unit 9519 Box 6723, DPO AA 05856",Jonesstad,SC,Austria
+DA000133,CUST02960,"774 George Mall, Cindyside, RI 57498",East Catherinefort,PA,Cyprus
+DA000134,CUST02049,"1273 Dustin Gardens Apt. 426, Knightberg, IL 66578",South Renee,VI,French Polynesia
+DA000135,CUST01781,"51890 Bradley Island Apt. 940, Lake Michael, CA 88564",Stephensbury,GU,Denmark
+DA000136,CUST00584,"2504 Peterson Row, Davidshire, NM 31801",Lindaberg,ID,El Salvador
+DA000137,CUST00432,"300 Mcdaniel Street, Lake Linda, UT 63742",Port Diana,AR,Sweden
+DA000138,CUST01933,"30488 Ponce Summit, Port Brett, MT 08988",Melissaton,WI,Fiji
+DA000139,CUST02101,"307 Brenda Throughway Apt. 861, East Craig, OH 84347",Port Ronaldton,GU,Heard Island and McDonald Islands
+DA000140,CUST02988,"08376 Renee Summit, Krystalberg, ID 24408",South Autumnburgh,OH,Palestinian Territory
+DA000141,CUST02568,"15776 Kemp Club Apt. 286, West Michellebury, OK 33110",Barryshire,NY,Greece
+DA000142,CUST01349,"065 Frank Corners Suite 085, Bellshire, KY 31419",North Christopher,KS,Cape Verde
+DA000143,CUST02195,"025 Ramirez Lodge Apt. 434, Taylorview, MA 41825",Webbstad,KS,Eritrea
+DA000144,CUST02031,"143 Robert Pass Suite 009, Mejiatown, DC 88952",Jillborough,MA,Macao
+DA000145,CUST01190,"644 Lewis Station Suite 672, Gordonland, WV 22695",New Joseph,PW,Ukraine
+DA000146,CUST01163,"212 Marc Spurs, Johnsonhaven, DE 71612",Youngmouth,AR,Liechtenstein
+DA000147,CUST02677,"56137 Fitzgerald Roads, Reynoldsfurt, RI 80163",West Ashley,NC,Guadeloupe
+DA000148,CUST00299,"2999 Ryan Junction Apt. 808, East Elizabethmouth, MH 65191",Dennisport,NH,Qatar
+DA000149,CUST01940,"53791 Seth Mills Apt. 163, New Amandafort, OK 87095",Christinaburgh,AR,Switzerland
+DA000150,CUST00789,"516 Rebecca Wells, Youngland, KS 46843",Tamaraview,OR,France
+DA000151,CUST00850,"PSC 8335, Box 1812, APO AP 45413",Martinton,DC,Mongolia
+DA000152,CUST02226,"0520 Virginia Hill Suite 977, Greeneborough, PR 40612",East Kayla,NC,Gambia
+DA000153,CUST02890,"Unit 7495 Box 3462, DPO AE 91788",East Juliaberg,WA,Sudan
+DA000154,CUST01378,"1052 Joe Viaduct Suite 939, Nguyenshire, GU 04823",Lindaborough,TN,Turks and Caicos Islands
+DA000155,CUST01178,"47689 Thomas Motorway, Erinton, PA 44109",Port Cindy,MH,Bhutan
+DA000156,CUST01950,"6238 Espinoza Dale, Alexanderfurt, MA 03201",Stonemouth,VI,Martinique
+DA000157,CUST00878,"06212 Cruz Heights Suite 469, Meganbury, WV 96948",Lake Sergio,PR,Dominican Republic
+DA000158,CUST01139,"814 Edwards Common Suite 375, Blairton, ND 71613",Gibbsburgh,ND,El Salvador
+DA000159,CUST01578,"217 Graves Rapid, Lake Keith, ND 49977",East Cynthiaborough,PW,India
+DA000160,CUST02807,"2253 Alison Junction, East Jeffrey, NC 47523",West Susan,MT,Falkland Islands (Malvinas)
+DA000161,CUST02493,"9107 Wilson Walks, New Rebeccachester, KS 67371",East Jenniferport,CA,Qatar
+DA000162,CUST02756,"5744 Reyes Grove, Lake Debraberg, VT 74724",South Jessicaton,UT,Philippines
+DA000163,CUST02650,"01999 Patton Extensions Suite 275, Roweland, MS 80854",Bradleyfurt,WA,Zambia
+DA000164,CUST01647,"2542 Raymond Field Suite 199, South Mariaton, ME 97102",New Brianhaven,RI,Holy See (Vatican City State)
+DA000165,CUST01904,"51876 Mary Common Suite 894, Vickitown, ID 79451",Sullivanville,NJ,Latvia
+DA000166,CUST01383,"031 Zachary Village Apt. 998, Daltonhaven, MO 04895",South Chad,NM,Chad
+DA000167,CUST00145,"842 Reed Ports, Christopherchester, AL 47446",Gonzalezstad,ME,Australia
+DA000168,CUST02323,"84314 Stewart Road, Julieberg, GU 88430",South Evanborough,MA,Luxembourg
+DA000169,CUST02557,"47300 Tara Heights, Lake Brittany, TN 99337",Port Mark,WA,Comoros
+DA000170,CUST01203,"114 Wolfe Walk Apt. 408, West Wandaport, HI 19626",Johnsonfort,IA,Aruba
+DA000171,CUST02801,"62792 Rodgers Rest Suite 592, North Jeremy, MA 48729",East Debbie,CT,Samoa
+DA000172,CUST01862,"184 Nicholas Rapid Apt. 381, Lake Sandra, MN 68860",Port Jade,IA,Madagascar
+DA000173,CUST01855,"514 Tyrone Pike Suite 109, East Richardfurt, MD 94902",Robertton,WA,Argentina
+DA000174,CUST02525,"55042 John Squares Apt. 727, Cooperborough, MA 94190",Amandaland,WY,Brazil
+DA000175,CUST01867,"446 Molly Village, New Robinburgh, OR 20590",Evansville,DC,New Zealand
+DA000176,CUST01099,"561 Hannah Flats Apt. 134, Hendersonbury, PA 59707",Lake Maryville,NH,Western Sahara
+DA000177,CUST01152,"895 Christina Mill Suite 876, North Pamela, PA 59778",New Rebeccaport,SC,Korea
+DA000178,CUST01735,"97616 Tiffany Mountains Apt. 102, Hernandezland, VI 15640",New Debra,MO,Morocco
+DA000179,CUST02714,"4075 Melissa Cliffs, Albertland, ID 44851",Tylerside,AR,Western Sahara
+DA000180,CUST00568,"1281 Zhang Green, Port Karenborough, WY 76457",Amandaton,CT,Portugal
+DA000181,CUST01814,"2298 Tony Meadows, South Ralph, ME 03715",Kennethtown,RI,Saudi Arabia
+DA000182,CUST00531,"03631 Hernandez Drive Apt. 121, Jasonstad, MH 34006",Karamouth,FM,Belize
+DA000183,CUST02207,"767 Lopez Circles, Tarachester, MI 93859",Lake Megan,LA,Mexico
+DA000184,CUST01562,"9716 Annette Place Apt. 695, Williambury, TX 45022",Kelseyberg,VT,Guyana
+DA000185,CUST00681,"901 Christopher Estates, Kellifort, AS 22843",Wendybury,TN,Guernsey
+DA000186,CUST02071,"8480 Johnson Rapids Apt. 418, Port Deniseberg, WI 23247",West Veronicafurt,AZ,Korea
+DA000187,CUST01071,"49647 Whitaker Circle Suite 517, West Lindamouth, VA 39541",Port Samuel,RI,Liberia
+DA000188,CUST02573,"82520 Archer Lights, Port John, DC 29533",Cherylside,VI,Cameroon
+DA000189,CUST00729,"179 David Coves, Hudsonfurt, MI 30119",Melindabury,GA,Bahamas
+DA000190,CUST01730,"5057 Olson Unions Suite 648, Francisberg, AS 15446",New Alexandraport,MT,Hong Kong
+DA000191,CUST02192,"99170 Kelly Crossroad, Christianland, MO 73417",Port Kevin,FM,San Marino
+DA000192,CUST00668,"USS Clark, FPO AP 66223",Port Cassandraport,MD,Sweden
+DA000193,CUST01613,"24747 Andrews Centers Apt. 546, New Kevinmouth, MH 58489",West Scotthaven,IA,Qatar
+DA000194,CUST00681,"902 Shaw Springs, Amandaberg, AS 32324",New Vincentfort,MH,Guyana
+DA000195,CUST00973,"9705 Cathy Brooks Suite 386, North Kimberlytown, ME 28831",Phillipshire,AL,Congo
+DA000196,CUST02847,"06848 Reyes Extensions Suite 198, South Natalie, HI 11908",Lake Anthony,AK,Aruba
+DA000197,CUST02133,"773 Patel Grove Apt. 537, Cummingstown, AK 25083",Robinmouth,KY,Libyan Arab Jamahiriya
+DA000198,CUST02464,"19425 Miller Brooks Apt. 523, Port Lisa, ME 98570",Courtneyland,OR,Martinique
+DA000199,CUST02742,"USNS Carpenter, FPO AA 57325",West Jenniferstad,IN,Thailand
+DA000200,CUST02530,"37667 Nelson Forest, Mcclainport, DC 24717",Loriport,OR,United States of America
+DA000201,CUST02504,"66877 Shaffer Track, East Julie, VA 69655",Stonebury,RI,Grenada
+DA000202,CUST00827,"918 Castillo Lane Suite 453, Meganborough, PW 58777",South Ericmouth,WA,Guatemala
+DA000203,CUST00297,"2693 Ruben Forge Apt. 150, Nicholasstad, AS 29545",Port Kristina,NV,Angola
+DA000204,CUST01254,"2355 Peterson Crescent Apt. 357, Gainesburgh, MD 67461",New Richardmouth,VA,Kuwait
+DA000205,CUST02998,"34077 Guerrero Pike, East Nicole, MO 81820",Leville,FL,Ecuador
+DA000206,CUST02728,"76117 Jacob Flat, East Sarabury, NE 11314",Petersstad,IA,Egypt
+DA000207,CUST02426,"18773 Macias Village Suite 191, Lake Kathleen, WA 53453",New Terri,MO,French Guiana
+DA000208,CUST02469,"61238 Andrew Throughway Apt. 810, Port Gary, WI 37815",Bethanybury,AZ,Albania
+DA000209,CUST02153,"535 Fisher Radial Apt. 439, South Devin, MO 56801",Morrisbury,MA,Guyana
+DA000210,CUST01729,"7251 Robin Heights Suite 241, Christyhaven, SD 98067",South Jacob,HI,Sudan
+DA000211,CUST02025,"208 Andrade Prairie, North Gregorymouth, FM 09244",New Jenniferville,CA,Malta
+DA000212,CUST00330,"99420 Tanya Ports, Port Terri, NM 03208",North Carol,MT,Myanmar
+DA000213,CUST02487,"3935 Amber Lake Apt. 610, Laurenburgh, VA 77711",Ianbury,KY,Anguilla
+DA000214,CUST01156,"68301 Hale Island, Danielhaven, CT 24048",North David,MD,Guernsey
+DA000215,CUST01891,"3842 Johnston Crest Suite 775, North Mike, CA 22085",Rivashaven,MA,Gambia
+DA000216,CUST00382,"34158 Clarke Corners, North Tina, CO 76282",Jakefurt,MD,Bhutan
+DA000217,CUST02186,"Unit 7511 Box 9882, DPO AP 64960",North Thomasshire,CO,Mayotte
+DA000218,CUST02991,"31556 Richardson Centers, East Vickimouth, NE 46969",Port Christina,FM,Faroe Islands
+DA000219,CUST00843,"1891 Sullivan Road, Mezaborough, AR 94965",New Andrewhaven,NJ,United Arab Emirates
+DA000220,CUST02318,"5001 Jason Mount, West Patriciabury, VA 52441",Weaverstad,MH,Eritrea
+DA000221,CUST00396,"98608 Norman Plains Suite 212, Maryside, AK 69583",Annachester,MT,Greenland
+DA000222,CUST02961,"0385 Bell Meadow Suite 320, Devinside, PR 60004",South Jessica,UT,Mali
+DA000223,CUST02512,"7127 Emily Hills Apt. 036, North Joshua, NJ 66929",West Michelleborough,WA,Belgium
+DA000224,CUST00450,"397 Tara Turnpike, Lake Johnny, MI 55813",Florestown,PR,Holy See (Vatican City State)
+DA000225,CUST01355,"8523 Jason Hill, Palmerside, NE 61039",Maxwellbury,ND,Belize
+DA000226,CUST01987,"Unit 1986 Box 4033, DPO AP 78372",Meganburgh,ID,Singapore
+DA000227,CUST01309,"45832 Brown Ridges Apt. 034, Wagnerport, FM 85224",Lake Josephburgh,CT,Northern Mariana Islands
+DA000228,CUST01298,"121 Hernandez Mount Apt. 346, Port Tylerside, MA 58188",South Samanthashire,MI,Swaziland
+DA000229,CUST02068,"319 Bradley Cliff Suite 162, Michaelside, MS 74338",Port Louisshire,CT,United Kingdom
+DA000230,CUST02287,"3855 Haynes Lights Suite 870, East Willieberg, WY 33509",Jonesmouth,IN,Myanmar
+DA000231,CUST01294,"34778 Amy Street, West Tyronechester, MD 17631",Russellborough,DC,Sri Lanka
+DA000232,CUST02466,"814 Kayla Circle, Jonathonborough, MT 30487",Amandaborough,GU,Ethiopia
+DA000233,CUST01850,"299 Anderson Square Apt. 832, North Carla, IL 67483",Port Michaeltown,TN,Barbados
+DA000234,CUST00186,"2981 Jessica Motorway, Longland, VT 56045",West Rick,RI,Iceland
+DA000235,CUST01234,"0777 Andrew Mews, Port Virginia, KY 79392",North Susan,MN,Israel
+DA000236,CUST01438,"USNV Phillips, FPO AE 44080",South Dawnport,KS,Cocos (Keeling) Islands
+DA000237,CUST00253,"532 Ruth Street, New Alexland, UT 81069",South Lisaville,NC,Somalia
+DA000238,CUST00019,"PSC 9173, Box 9709, APO AE 71384",East Samanthashire,MN,Sudan
+DA000239,CUST02760,"12267 Garcia Mount, Johnstonfort, NC 07775",West Samuelmouth,VA,Heard Island and McDonald Islands
+DA000240,CUST01160,"485 Carlos Meadow, West Alexandria, NC 39992",North Brandon,CT,Belize
+DA000241,CUST00223,"6406 Carey Rapid, North Michael, VI 63420",Michaelmouth,MS,Guam
+DA000242,CUST00003,"66463 Jeffery Crossroad, Lake Tina, PW 87040",Terrimouth,AS,Norway
+DA000243,CUST01260,"08913 Jillian Valleys, Whitakershire, TN 48400",Melissaberg,ID,Mauritius
+DA000244,CUST00854,"2537 Macdonald Meadow, Johnborough, OK 10525",Lake Samanthaland,IL,Trinidad and Tobago
+DA000245,CUST01489,"2129 David Village Suite 810, North Jennifer, AZ 81677",Theresahaven,OK,North Macedonia
+DA000246,CUST00228,"762 Ashley Garden Suite 240, West Lauren, FM 56409",Michaelbury,FL,French Polynesia
+DA000247,CUST02961,"USCGC Anderson, FPO AA 44985",Phamstad,AL,Netherlands Antilles
+DA000248,CUST01678,"972 Odonnell Extensions Apt. 181, Wilsonbury, CO 99156",West Veronicastad,WY,Brazil
+DA000249,CUST00499,"764 Steven Shoals, South Shanefurt, NV 96129",Catherinefort,AR,Peru
+DA000250,CUST02569,"284 Smith Harbors Apt. 470, Port Russellstad, MN 50050",Susanview,AZ,Luxembourg
+DA000251,CUST02750,"499 Hernandez Cliffs, South Leslie, MS 76169",Scottborough,OH,Northern Mariana Islands
+DA000252,CUST01886,"0804 Potter Meadows, Lake Michaelbury, NH 12125",Frankmouth,LA,Uzbekistan
+DA000253,CUST02965,"3843 Richard Isle, Patrickton, PA 90719",Deannamouth,AK,Senegal
+DA000254,CUST02016,"PSC 5466, Box 2611, APO AA 01989",South David,MA,Uzbekistan
+DA000255,CUST01163,"5586 Jennifer Trace, Port Morgan, MO 91396",Gomezstad,WY,New Caledonia
+DA000256,CUST01300,"148 Harris Wall Apt. 236, New Gabriel, PW 68346",Jasmineborough,TN,Nigeria
+DA000257,CUST02339,"1303 Horton Trafficway, Martinchester, MN 31690",Port Richardhaven,UT,Ukraine
+DA000258,CUST01077,"12107 Edwards Ford, Lake Brenda, AR 90429",Lake Samuelhaven,NM,Liechtenstein
+DA000259,CUST00715,"30789 Schwartz Underpass, Lake Christopherport, OH 71526",North Marcborough,SD,Bouvet Island (Bouvetoya)
+DA000260,CUST00948,"949 Patel Alley, Kellyville, LA 60123",New Gina,OR,Turkmenistan
+DA000261,CUST02696,"045 Jon Inlet Suite 272, West Theresashire, MO 99638",South Annaton,GA,Tanzania
+DA000262,CUST02732,"2033 Weber Walk, Melindamouth, OK 42249",Calvinmouth,PR,Algeria
+DA000263,CUST00870,"00361 King Lake Suite 799, North Edwardstad, VI 89194",North John,ND,Northern Mariana Islands
+DA000264,CUST01071,"14970 Johnson Club Suite 927, West Brianfort, WI 10330",Martinezberg,AK,Kyrgyz Republic
+DA000265,CUST00094,"9218 Paul Extensions Apt. 352, Lake Justinchester, FL 75291",New Jamesport,FL,Vanuatu
+DA000266,CUST02988,"971 Reyes Circle Apt. 497, Sharonport, DC 96055",Atkinsonview,NM,Malawi
+DA000267,CUST00560,"PSC 7659, Box 3358, APO AE 29102",Robertside,SD,Portugal
+DA000268,CUST01776,"0096 Clark Haven Suite 389, Marcusborough, ME 59459",Michaelchester,DC,Grenada
+DA000269,CUST02261,"40495 Joseph Crescent, Port Amy, AS 31587",Sherrifurt,PR,Morocco
+DA000270,CUST00436,"USS Rodriguez, FPO AP 80274",Dawsonshire,PR,Bouvet Island (Bouvetoya)
+DA000271,CUST00852,"9698 Miguel Well Apt. 109, Jennifershire, DC 60319",East Joanport,CA,Cameroon
+DA000272,CUST02556,"PSC 4401, Box 9423, APO AA 03605",Harrisfort,MH,Jamaica
+DA000273,CUST02884,"67291 Jamie Ways Apt. 461, East Samantha, AR 52693",South Kelseychester,ND,Wallis and Futuna
+DA000274,CUST02699,"779 Franklin Rapids Suite 790, West Marciafurt, AZ 52166",Parkerview,NC,Gambia
+DA000275,CUST00205,"444 Brooks Shoal Apt. 778, North Emilyhaven, FL 98879",Shieldschester,WA,Mali
+DA000276,CUST02429,"040 Ryan Islands Apt. 252, South Danielport, MT 56832",South Melissa,MP,Zambia
+DA000277,CUST01100,"3770 Cooley Cliffs Apt. 547, Amandashire, IA 47503",New Kimberly,OK,South Africa
+DA000278,CUST00077,"16792 Michael Dam, Donnashire, NY 39214",Riggsberg,MI,Angola
+DA000279,CUST00816,"3668 Stacey Plain Suite 066, West Melissa, OH 69414",West Tara,AS,Saint Kitts and Nevis
+DA000280,CUST00768,"07557 Steven Street, Nicolemouth, NH 17851",Port Rachel,NY,Slovenia
+DA000281,CUST02458,"120 Christopher Ports Suite 226, Meyerberg, AR 21061",New Victor,ND,Aruba
+DA000282,CUST00106,"1905 Lisa Drive Suite 338, West Katherine, DC 55170",Peterport,PR,Senegal
+DA000283,CUST02599,"349 Christopher Summit Apt. 586, South Bryan, IN 71248",Williamsstad,NH,Libyan Arab Jamahiriya
+DA000284,CUST02874,"80027 Kyle Dale, Mullinstown, SD 28776",Lambborough,DC,Albania
+DA000285,CUST02136,"99535 Willis Road Suite 067, North Amanda, DC 81559",North Danny,RI,Malta
+DA000286,CUST01747,"635 Gina Plaza Apt. 852, Leeside, FM 76612",Jeffreyhaven,MO,Chile
+DA000287,CUST02929,"47403 Riley Forks Suite 828, Kimton, MH 02886",New George,AR,Germany
+DA000288,CUST01466,"879 Bailey Road, New Peterside, CA 87034",East Richardstad,MD,Falkland Islands (Malvinas)
+DA000289,CUST02588,"496 Linda Springs, Port Mariaburgh, NY 96653",Gonzalezbury,FM,Mexico
+DA000290,CUST00245,"13833 Rebecca Estate, Kaitlynberg, CO 08998",Stephenborough,WA,Mozambique
+DA000291,CUST02626,"499 Lowe Spur, North Stephaniemouth, NY 50282",Gonzalezburgh,MT,Niue
+DA000292,CUST01406,"7352 Susan Rapid, Evansside, NC 78212",Markland,UT,Kenya
+DA000293,CUST00982,"495 White Run, North Dianechester, WV 84917",Port Bradleyfort,MH,Ukraine
+DA000294,CUST02765,"Unit 0774 Box 4467, DPO AE 81702",Richardsonmouth,GA,Armenia
+DA000295,CUST01737,"632 Amy Pike, East Heatherview, AR 14797",Port Andrew,WA,Isle of Man
+DA000296,CUST00142,"Unit 8562 Box 9308, DPO AE 72502",Port Taylorton,MI,Holy See (Vatican City State)
+DA000297,CUST00893,"6889 Evans Shoals Apt. 129, Lake Alexistown, TN 26487",East Erinside,NH,Bhutan
+DA000298,CUST01392,"63645 Joshua Springs Suite 703, Port Robertoview, AL 57619",West Sherrymouth,AL,Papua New Guinea
+DA000299,CUST02400,"982 Butler Ridge Apt. 237, Richardfort, MO 97318",Mccoystad,LA,Seychelles
+DA000300,CUST00545,"7507 Kennedy Junctions Suite 887, Hallmouth, RI 10267",Lake Vickiehaven,PW,Norfolk Island
+DA000301,CUST02961,"USNV Walker, FPO AE 07080",Barryshire,UT,Saint Helena
+DA000302,CUST02200,"134 David Lane, Cathyview, LA 32546",North Anneview,AK,Monaco
+DA000303,CUST01470,"677 Amanda Street, West Kevinview, MS 39364",Andersonbury,NC,Ghana
+DA000304,CUST02701,"449 Karen Springs, Boothshire, WA 17269",Michellestad,FM,Israel
+DA000305,CUST00763,"22554 Michael Port, Leonshire, WI 55811",East Maria,DC,Bosnia and Herzegovina
+DA000306,CUST00624,"0261 Suzanne Garden Suite 754, Crystalland, DE 05671",North Anthonyshire,LA,Italy
+DA000307,CUST00656,"59846 David Unions, North Paula, WI 94599",Port Taratown,ND,Afghanistan
+DA000308,CUST02498,"203 Glenn Glens Suite 308, East Kimberlyberg, VA 47455",Williamview,KS,South Africa
+DA000309,CUST02769,"39169 Joseph Mountain Suite 084, Andrewstad, UT 48607",Duartetown,ND,Greece
+DA000310,CUST01248,"416 Erica Ville, Jacobmouth, NH 12094",New Patrick,KS,Bahrain
+DA000311,CUST00043,"397 Mendoza Manors, West Jeffrey, OR 27142",Lake Edwardside,DE,Bulgaria
+DA000312,CUST02312,"39867 Richard Centers Suite 142, Michaelborough, DE 39178",Johnview,PA,Pakistan
+DA000313,CUST01027,"52769 Sabrina Freeway Apt. 430, Johnstonside, PA 99778",East Kimberlyview,AR,India
+DA000314,CUST01661,"PSC 4725, Box 7440, APO AA 78013",Colleenborough,MO,Sierra Leone
+DA000315,CUST01292,"297 Ashley Brooks, Lawrenceshire, MI 14678",East Shannon,HI,Paraguay
+DA000316,CUST00596,"532 Emily Harbors Suite 908, Port Bryanstad, KS 25970",Rebeccaton,WY,Malawi
+DA000317,CUST01013,"027 Courtney Forges Apt. 731, Lake Caroline, AR 13199",Hughesland,OK,Georgia
+DA000318,CUST02225,"9763 Wright Dale, Wilkersonland, OK 02944",Lake April,AK,Swaziland
+DA000319,CUST02111,"0357 Townsend Mount Apt. 876, Smithport, PA 64122",Timothyland,NH,Falkland Islands (Malvinas)
+DA000320,CUST00958,"301 Robert Coves Apt. 044, West Kevinview, AR 54329",Greenberg,LA,Cape Verde
+DA000321,CUST00561,"58076 Petersen View, Karentown, SD 70613",Goodmanhaven,MH,Poland
+DA000322,CUST01331,"039 Jackson Pike, Lake Robert, HI 08017",South Dannymouth,AZ,Netherlands Antilles
+DA000323,CUST01313,"PSC 3147, Box 3416, APO AA 96240",South Ryan,FL,Vanuatu
+DA000324,CUST01822,"665 Robert Greens Suite 980, Thomastown, MN 17417",Christinaside,HI,Uruguay
+DA000325,CUST01551,"0545 Sawyer Lodge, Debramouth, OH 81268",Christianmouth,KS,Niue
+DA000326,CUST00850,"Unit 5820 Box 5950, DPO AP 31272",South Jenniferville,GA,Cuba
+DA000327,CUST01279,"9743 Young Passage Apt. 753, Lopezchester, IL 08909",New Michaelport,RI,Cayman Islands
+DA000328,CUST02652,"9961 Nichols Groves Apt. 431, East Michaelview, LA 93959",New Natalietown,NM,Jordan
+DA000329,CUST01534,"111 Hall Lake Apt. 890, Masonland, RI 05464",Haysville,WI,Lao People's Democratic Republic
+DA000330,CUST01815,"9423 Davis Fall Apt. 675, Meghanchester, AK 61718",Williamsmouth,DC,Syrian Arab Republic
+DA000331,CUST01742,"5333 Ryan Harbor, Susanfurt, MO 04889",North Michaelport,MI,Sudan
+DA000332,CUST00606,"PSC 4049, Box 1260, APO AP 73273",Lynchport,NJ,Congo
+DA000333,CUST02878,"435 Darlene Club, South Julieside, AS 05296",Lake Michaelchester,AL,Azerbaijan
+DA000334,CUST01487,"873 Amanda Brook, West Charlesberg, MP 69767",Myersport,VI,Cameroon
+DA000335,CUST01295,"2649 Lindsey Burg Apt. 595, New Nicole, ME 60977",Hoffmanbury,NV,San Marino
+DA000336,CUST00746,"PSC 0705, Box 1928, APO AP 11511",Port Kim,LA,Croatia
+DA000337,CUST00558,"105 Chandler Mountains Suite 213, Port Chadchester, MD 40448",North Michelle,WV,Grenada
+DA000338,CUST02112,"8098 Patel Camp, Stephanieberg, NH 01721",Christopherview,MO,Somalia
+DA000339,CUST00942,"985 Estrada Trail Suite 707, Lake Linda, CA 77770",Allisontown,ID,Guam
+DA000340,CUST02297,"920 Brown Bridge Suite 382, Port Rodney, NC 09223",South Ruben,WY,Tokelau
+DA000341,CUST01270,"PSC 2451, Box 6829, APO AE 90450",New Nathan,WY,Switzerland
+DA000342,CUST00940,"01736 Acosta Forks, New Mauricechester, MO 52087",Pottsmouth,DE,Japan
+DA000343,CUST01611,"9080 Natasha Ways, East Regina, CA 84954",East Anthony,WV,Norway
+DA000344,CUST02205,"3672 Thompson Well Apt. 966, Michaelville, WY 94439",Leetown,NV,Mexico
+DA000345,CUST02783,"4442 Michael Mission Suite 120, Parktown, FM 64623",New Raymond,FL,Jamaica
+DA000346,CUST01726,"1711 Madeline Course Suite 759, Heidifurt, NH 24904",Vaughanbury,VA,Somalia
+DA000347,CUST00985,"PSC 8570, Box 9748, APO AP 42746",East Tiffany,FL,Czech Republic
+DA000348,CUST01588,"337 Martinez Hills, Port Robin, NM 14310",North Kimberlytown,FL,Slovakia (Slovak Republic)
+DA000349,CUST01337,"19719 Sarah Well, South Jonathanside, NY 25544",Moodymouth,VA,Holy See (Vatican City State)
+DA000350,CUST01875,"983 Regina Groves Apt. 399, Lake Stephanie, CT 01753",Lake Kimberly,NV,Faroe Islands
+DA000351,CUST00662,"649 Michael Dale, Port Brian, PW 15014",East Dominiqueborough,PA,Uruguay
+DA000352,CUST00033,"9037 Dawn Shore, Yoderfurt, CA 96875",East Lisashire,VA,Costa Rica
+DA000353,CUST01817,"314 Clark Rapids, Kington, NM 08688",East Michelle,MN,Singapore
+DA000354,CUST02606,"66894 Natalie Bridge, Travischester, AZ 30664",Carsonside,OH,Christmas Island
+DA000355,CUST02121,"9257 Harris Village, Clarkhaven, MI 73200",Sandraview,NE,Dominica
+DA000356,CUST01890,"Unit 6462 Box 8914, DPO AE 04339",South Baileyview,AS,Lao People's Democratic Republic
+DA000357,CUST02873,"684 Williams Plains, Port Stephanie, CT 49777",Port Jaimeport,VA,Nepal
+DA000358,CUST01157,"26569 Smith Square Apt. 270, New Nicolefort, MH 17937",Timothychester,MT,Qatar
+DA000359,CUST00061,"02450 Myers Trafficway, Danielberg, AZ 66427",North Tammiebury,IA,Korea
+DA000360,CUST01544,"2379 Jason Row Suite 132, New Tonya, DE 19791",Maxwellberg,AK,Serbia
+DA000361,CUST00272,"55698 Wallace Unions, Mccannton, VA 43667",Timothyton,NH,Angola
+DA000362,CUST02294,"888 Jose Trafficway, Huntville, OR 17074",East Matthew,OK,Russian Federation
+DA000363,CUST01200,"9651 Anthony Port, South Erin, AR 34399",West Travischester,VI,Libyan Arab Jamahiriya
+DA000364,CUST02676,"PSC 1988, Box 1907, APO AA 68734",Donaldmouth,NV,India
+DA000365,CUST01807,"29619 Katherine Pass, West Kimberlyburgh, NV 75571",Torreschester,CO,Cayman Islands
+DA000366,CUST02753,"8456 Benjamin Cliff, Lake Kelseybury, MO 89982",Krystalfort,ND,Sao Tome and Principe
+DA000367,CUST02710,"9702 Kennedy Path Suite 293, Christopherfort, PW 73520",Port Kimberly,TN,Turkey
+DA000368,CUST01155,"954 Micheal Spring Suite 274, Davidhaven, DE 89447",New Jessica,GU,Libyan Arab Jamahiriya
+DA000369,CUST01126,"718 Brian Summit, South Karina, PA 06869",Lake Roberto,MA,Burkina Faso
+DA000370,CUST00310,"013 Lawrence Plains, Kristybury, RI 41916",Acevedoberg,IA,Christmas Island
+DA000371,CUST01316,"690 Brandi Islands, Lynchtown, NY 99925",Robertshire,ID,Iran
+DA000372,CUST01746,"64724 Perez Ford, Martinezville, AS 63899",Wangside,AK,Cape Verde
+DA000373,CUST02543,"9023 Ashley Skyway, South Julieburgh, VI 94422",East Heatherland,ND,Liechtenstein
+DA000374,CUST00338,"6229 Rhodes Center, Nicholaston, GU 00896",North Jamesmouth,IL,Falkland Islands (Malvinas)
+DA000375,CUST02627,"359 Robin Track Apt. 307, Hendersonstad, KS 34396",South Mark,WV,Lao People's Democratic Republic
+DA000376,CUST00010,"463 Roger Estates, Heatherfurt, IA 63125",West Christinebury,KY,Libyan Arab Jamahiriya
+DA000377,CUST00049,"317 Carly Throughway, North Mark, IA 35712",Richardtown,NY,Zambia
+DA000378,CUST01511,"1476 Holly Plaza, Port Hunterchester, VA 08912",Williammouth,OK,Uzbekistan
+DA000379,CUST02671,"42445 Jeremy Well, North Shawn, TN 48623",Reedview,DE,Cook Islands
+DA000380,CUST01345,"36105 King Pines, Warnermouth, IA 98415",Archerborough,MH,Uruguay
+DA000381,CUST00731,"146 Leah Islands Suite 580, Bowenbury, CO 98462",Lake Matthewhaven,CO,Greece
+DA000382,CUST00795,"5489 Berg Pike Suite 544, Jeffreymouth, VI 16095",South Mark,CO,Mali
+DA000383,CUST01649,"51533 Crystal Park, South Ashleytown, MT 80903",Lake Emily,AZ,Madagascar
+DA000384,CUST00133,"512 Andrew Turnpike Apt. 917, Hawkinsfort, FL 57572",West Susanmouth,AZ,Sweden
+DA000385,CUST02131,"854 Hill Viaduct, Johnnyfort, ME 21195",New Sandra,FL,Aruba
+DA000386,CUST02105,"61120 Romero Expressway Apt. 753, Nathanport, GU 06938",Mirandafurt,IA,Iceland
+DA000387,CUST00376,"268 Leon Glens Apt. 114, Weststad, MD 63803",Taylortown,NE,Marshall Islands
+DA000388,CUST02397,"9797 Nathan Divide Suite 457, East Jonathon, AK 65225",Rhondaland,MN,Paraguay
+DA000389,CUST00271,"6362 Kemp Plains, Ruizmouth, KS 06675",Jaredland,MP,Malta
+DA000390,CUST01507,"23319 Turner Rapids, Ianton, VA 47734",West Kyle,FM,Guam
+DA000391,CUST02159,"981 Hicks Valleys Suite 971, South Taylorfurt, VA 15593",South Jefferyside,MD,Slovakia (Slovak Republic)
+DA000392,CUST02917,"933 David Parkway Apt. 405, Jameston, WI 97693",New Angela,MP,Greenland
+DA000393,CUST02935,"9786 Mary Glen, Harrishaven, IA 64562",Sullivanshire,VA,Bosnia and Herzegovina
+DA000394,CUST00076,"51092 Nichols Forges Apt. 704, Lake Scott, NC 88219",Sarahhaven,NV,French Polynesia
+DA000395,CUST01957,"USNV Hutchinson, FPO AP 52251",North Deniseville,PA,Iran
+DA000396,CUST01667,"998 Martin Light Apt. 138, Port Marcustown, LA 05348",Jennifershire,AL,Bosnia and Herzegovina
+DA000397,CUST00329,"3090 Ramirez Course Suite 385, Angelicamouth, AK 93193",Castroside,MN,Portugal
+DA000398,CUST02170,"883 Adams Mill Suite 511, South Michael, NC 81024",Jaimefurt,TN,Zambia
+DA000399,CUST00041,"186 Kimberly Haven, Hulltown, AK 91998",North Alejandroburgh,AL,Sweden
+DA000400,CUST01191,"Unit 1364 Box 1791, DPO AE 42972",South Sheriberg,NE,Zimbabwe
+DA000401,CUST02970,"6048 Patricia Stream, Brandytown, VT 63639",Vincentmouth,AK,Uruguay
+DA000402,CUST02690,"494 Smith Lock Apt. 665, Berryborough, CT 42607",South Lisa,OH,Italy
+DA000403,CUST02327,"USS Kennedy, FPO AA 93450",Michelleside,AS,Armenia
+DA000404,CUST02811,"74295 Byrd Fall, East Chris, FM 99454",Tuckerport,WA,Dominican Republic
+DA000405,CUST02517,"Unit 6078 Box 3558, DPO AP 43709",West Kathleen,MI,Lesotho
+DA000406,CUST02057,"23856 Daisy Wells Apt. 743, Jonesville, CA 38585",Lake Brianmouth,AK,Thailand
+DA000407,CUST00013,"215 Christy Glen Apt. 622, Peterhaven, VT 62531",Gallowayville,FM,Norfolk Island
+DA000408,CUST00924,"197 James Inlet Apt. 733, Bobbybury, GU 73637",Ashleyville,AL,Faroe Islands
+DA000409,CUST02971,"9790 Moore Inlet Apt. 326, Phillipsview, ID 69093",Port Justinbury,AZ,Portugal
+DA000410,CUST01843,"05597 Teresa Stravenue, Hendersonport, MN 68404",Jonesbury,CA,Georgia
+DA000411,CUST01233,"83224 Miller Brook Apt. 566, Greentown, PW 25640",South Brookeland,CA,Sudan
+DA000412,CUST01215,"116 Eric Trace Suite 108, Port Leah, DE 36462",Leachshire,ME,Aruba
+DA000413,CUST00653,"455 Sullivan Drives Suite 841, Beckyton, MI 96288",Floresville,KY,Namibia
+DA000414,CUST01704,"781 Haley Grove, East Roger, KS 86857",Christophertown,VT,Honduras
+DA000415,CUST00621,"33079 Hill Springs Suite 198, East Cherylhaven, AR 72656",Bairdville,ID,Iceland
+DA000416,CUST01963,"1643 Tapia Mews Suite 173, Hermanburgh, ME 79625",Julianborough,NH,Central African Republic
+DA000417,CUST01646,"Unit 9989 Box 8635, DPO AA 07387",West Mikebury,NE,Falkland Islands (Malvinas)
+DA000418,CUST02244,"871 Justin Spur, Amberstad, FM 70248",Friedmanport,AK,Maldives
+DA000419,CUST00417,"Unit 9484 Box 3899, DPO AA 97646",Port Ryan,CT,Iran
+DA000420,CUST00664,"444 Candace Roads, Port Sallymouth, NM 43766",Jenniferview,NH,Guinea
+DA000421,CUST01779,"371 Smith Rapid Suite 235, Antoniofort, TX 84793",Duranmouth,TX,Sweden
+DA000422,CUST01380,"6858 Graves Grove Suite 430, Port Robertmouth, DE 89499",Port Jeffreymouth,VA,Denmark
+DA000423,CUST00148,"15211 Cruz Road, Port Donaldstad, GU 90316",Angelamouth,NC,Mali
+DA000424,CUST02046,"5549 Lopez Loaf, Lake Kathymouth, TX 62179",Johnsonfort,VT,Russian Federation
+DA000425,CUST01389,"2672 Antonio Manors, South Paula, HI 90058",Stephenshire,WI,Montserrat
+DA000426,CUST02412,"6766 Walker Prairie, Thompsonport, NY 93177",South Ryan,FM,Dominican Republic
+DA000427,CUST01726,"529 Zhang Way, Port Michelle, OK 79769",South Jenniferside,DE,Sudan
+DA000428,CUST00402,"934 Tyler Extensions, Lake Miguel, CA 65363",Morganside,GU,Pitcairn Islands
+DA000429,CUST02654,"184 Derrick Heights, Melindaland, PR 25502",South Crystal,NH,Tonga
+DA000430,CUST01516,"281 Robertson Mountain, East Kaitlyn, MP 26057",East Codymouth,FM,Taiwan
+DA000431,CUST02032,"1864 Gould Divide, North Sherri, NH 15889",Michellefurt,ME,Turks and Caicos Islands
+DA000432,CUST00229,"75477 Howard Forks Apt. 534, Tinachester, IL 87242",Cartermouth,FM,United Arab Emirates
+DA000433,CUST01599,"78491 Santos Mountains, New Darrellchester, OH 20680",South Craigland,VT,Taiwan
+DA000434,CUST02585,"8692 Brianna Cliffs Apt. 321, West Margarettown, LA 85956",Shannonborough,CO,Reunion
+DA000435,CUST00268,"397 Small Mews, North Tammyfort, KS 55899",Estradaville,LA,Belgium
+DA000436,CUST01429,"61093 Perez Mountains Suite 919, East Jasmineville, FM 79413",Lake Renee,AZ,United Kingdom
+DA000437,CUST01817,"519 Amanda Prairie, South Joseph, LA 07073",Freemanborough,MN,Cuba
+DA000438,CUST01035,"97951 Smith Club Suite 941, Katrinaton, CT 74209",Hannahland,MP,Benin
+DA000439,CUST01344,"224 Schneider Valley, New Madisonbury, AK 62241",New Julianshire,GU,Mayotte
+DA000440,CUST00126,"691 Christian Field Apt. 067, Jameschester, OR 65049",Brownburgh,SD,Australia
+DA000441,CUST02354,"396 Julie Way Apt. 406, New Jeffreyburgh, MO 37654",New Williamview,AL,Ireland
+DA000442,CUST01726,"53340 Collier Burg, East Joshuaview, AK 47728",New Danielstad,SC,Croatia
+DA000443,CUST01113,"0709 Steven Trafficway Apt. 660, Frazierfurt, TX 66685",Port Tiffany,PW,Turks and Caicos Islands
+DA000444,CUST02676,"514 Marcus Road Suite 740, Lake Erik, SD 70711",Karenshire,GA,Philippines
+DA000445,CUST01376,"Unit 5302 Box 1362, DPO AA 49502",Port Michaelberg,WY,Estonia
+DA000446,CUST00689,"465 Miller Oval Suite 433, South Andrewburgh, CT 36250",North Jessicachester,AR,Tonga
+DA000447,CUST01281,"841 Rebekah Way, South Shannon, AR 97213",North Elizabeth,IN,Ethiopia
+DA000448,CUST01233,"43637 Shawn Flat Suite 331, Lake Gary, CO 60881",Janetview,RI,Belarus
+DA000449,CUST00281,"819 Barber Extensions, Loriburgh, CT 39465",Williamshire,NC,Gibraltar
+DA000450,CUST00443,"9766 Glen Rue Suite 601, West Michael, UT 28743",North Karen,NH,Brazil
+DA000451,CUST01864,"33311 Karen Grove, Hardyborough, SC 27147",Port William,NJ,Georgia
+DA000452,CUST00837,"576 Espinoza Extensions, New Christian, MO 09931",North Julie,WA,Somalia
+DA000453,CUST00389,"PSC 2533, Box 7930, APO AP 57297",Youngville,VA,Iran
+DA000454,CUST00617,"1166 Jennifer Views, North Christineville, AZ 32615",Port Johnburgh,NE,Ecuador
+DA000455,CUST00147,"884 Kim Crossing Apt. 473, Christopherton, MS 04195",Raychester,MS,New Caledonia
+DA000456,CUST00521,"926 Barry Knoll Suite 156, Scottfurt, SC 63565",Port Jennifer,CT,Tonga
+DA000457,CUST00630,"18840 Grant Branch, Alexandertown, HI 64871",Hayesburgh,NE,Burundi
+DA000458,CUST02482,"818 Robinson Stravenue Apt. 825, South Jason, OR 57586",Brownmouth,AR,Kazakhstan
+DA000459,CUST02192,"Unit 3946 Box 9502, DPO AA 55130",Georgeport,WV,Congo
+DA000460,CUST00289,"9885 Erin Plains, Mistyland, MO 90563",Darlenebury,VI,Namibia
+DA000461,CUST01410,"38973 Adam Locks, Robertchester, WY 98930",East Blakemouth,GA,Algeria
+DA000462,CUST00014,"708 Jones Curve Apt. 664, South Jeremychester, GU 19142",Port Tonyaton,NM,Burkina Faso
+DA000463,CUST00257,"04175 Miguel Radial Suite 080, Lake Loriside, PW 59028",New Mary,FM,Czech Republic
+DA000464,CUST01722,"86416 Eric Loop, Lopezfurt, LA 93279",Heberthaven,GA,Congo
+DA000465,CUST01424,"16291 Stephanie Loaf Apt. 328, Henrymouth, ND 52634",South Leeville,HI,Liechtenstein
+DA000466,CUST01231,"6860 Glenda Harbors, Jacobsport, DC 13347",New Lancestad,KS,Bouvet Island (Bouvetoya)
+DA000467,CUST00858,"USCGC Soto, FPO AP 21933",North Garrettfurt,NM,Spain
+DA000468,CUST02991,"PSC 0708, Box 4243, APO AE 44054",Lake Anthony,OH,South Africa
+DA000469,CUST01196,"543 Hayes Plain, Lake Karen, OH 29136",East Josephside,NM,Korea
+DA000470,CUST00464,"178 Lisa Meadow, Ramirezshire, CA 85828",Lake Jonathan,NC,Guam
+DA000471,CUST00270,"0947 Wheeler Burgs Suite 986, South Adam, TX 90599",Nelsonport,UT,Seychelles
+DA000472,CUST01245,"830 Johnson Hills, West Anthony, AS 90287",New Annton,NE,Comoros
+DA000473,CUST02671,"880 Natasha Vista Apt. 703, South Robertport, NE 37962",Lewishaven,CT,Brazil
+DA000474,CUST01207,"38729 Cantrell Harbor, South Sarahview, IN 56413",Shieldsside,RI,Burkina Faso
+DA000475,CUST00072,"92693 Gonzalez Unions Suite 321, Lake Rebeccatown, ID 49413",Kaylashire,AK,Togo
+DA000476,CUST01307,"1870 Michelle Plaza Suite 255, South Scottville, NJ 29753",Bruceton,MT,Qatar
+DA000477,CUST02122,"23256 Gross Islands, Maloneland, CT 05341",Williamberg,MN,Andorra
+DA000478,CUST02403,"07469 Patrick Flat, South Jack, PR 30491",Amandachester,OK,Lesotho
+DA000479,CUST01751,"8057 Salinas Corner, East Stephenside, MA 31991",Port Coreymouth,AR,Romania
+DA000480,CUST00497,"52946 Daniel Common, Jaredfort, MS 49042",Campbelltown,ND,Netherlands
+DA000481,CUST00988,"43965 Blair Bridge Suite 861, Pricebury, IL 91474",Courtneyview,TN,Netherlands
+DA000482,CUST02628,"570 Debra Ways, West Tylermouth, MH 42837",Port Marcus,AZ,Malaysia
+DA000483,CUST00910,"031 Carpenter Shores Suite 436, Kevinside, RI 74991",Hallberg,LA,Guinea-Bissau
+DA000484,CUST00373,"Unit 0150 Box 5668, DPO AE 14274",East Alex,WY,Turkmenistan
+DA000485,CUST00362,"220 Perez Roads Suite 575, New Barbara, TN 12509",Davisland,AR,New Zealand
+DA000486,CUST02141,"4092 Lewis Mountains Apt. 833, West Adam, WA 75239",North Alexis,MS,Cambodia
+DA000487,CUST01345,"663 Heather Plaza Apt. 742, Stevenport, WY 74151",Murphyside,LA,Poland
+DA000488,CUST00324,"9964 Evans Circle Apt. 181, North Amandamouth, NE 79711",Lake Ronaldfort,HI,United Kingdom
+DA000489,CUST02432,"03605 Wolf Port, West Christinaton, MT 79899",Jodifurt,MP,Qatar
+DA000490,CUST00575,"3515 Benjamin Circles, Simmonsshire, AR 06341",West Cynthia,ID,Malta
+DA000491,CUST00736,"656 Nicole Grove Apt. 011, Lake Sandrabury, OR 20217",Port Jason,IN,Belgium
+DA000492,CUST02785,"Unit 9254 Box 1214, DPO AA 43223",West Jeffmouth,VI,Myanmar
+DA000493,CUST02394,"2271 Thomas Rapids Apt. 384, Danielsside, OH 56661",Martinhaven,IN,Jordan
+DA000494,CUST01216,"19194 Sandra Rapid, West Shane, VI 73126",Brianmouth,HI,Niger
+DA000495,CUST01696,"704 Donaldson Manor, West Katelyn, MH 96421",South Travismouth,FM,Bulgaria
+DA000496,CUST01908,"818 Gary Manor Apt. 602, Gordonview, WI 03773",Cookview,NE,Yemen
+DA000497,CUST00719,"Unit 5944 Box 4617, DPO AE 26743",Erikton,AK,Bhutan
+DA000498,CUST00781,"860 Johnson Street, South Richardborough, WY 36749",Nancymouth,NM,United States of America
+DA000499,CUST01020,"16028 Harris Stream, Lake Crystalchester, FM 94479",Lauraberg,AK,Cape Verde
+DA000500,CUST01404,"553 Parker Islands, Bobbyfurt, IN 30444",North Blakeview,HI,Seychelles
