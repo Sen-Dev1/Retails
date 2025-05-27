@@ -15,6 +15,17 @@ required_tables = [
 existing_tables = set(f for f in os.listdir(DATA_DIR) if f.endswith('.csv'))
 missing_tables = [t for t in required_tables if t not in existing_tables]
 
+
+existing_tables = set(f for f in os.listdir(DATA_DIR) if f.endswith('.csv'))
+missing_tables = [t for t in required_tables if t not in existing_tables]
+print("Missing tables to generate:", missing_tables)
+
+for t in missing_tables:
+    if t in table_generators:
+        safe_to_csv(table_generators[t](), t)
+    else:
+        print(f"No generator defined for {t}. Please add one to table_generators.")
+
 def safe_to_csv(df, fname):
     path = os.path.join(DATA_DIR, fname)
     if not os.path.exists(path):
@@ -27,6 +38,14 @@ def load_csv(filename):
         return pd.read_csv(path)
     else:
         return None        
+    
+
+def safe_to_csv(df, fname):
+    path = os.path.join(DATA_DIR, fname)
+    df.to_csv(path, index=False)
+    print(f"Generated {fname}")
+
+
 
 
 
